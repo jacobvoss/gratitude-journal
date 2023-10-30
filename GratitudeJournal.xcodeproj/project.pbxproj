@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D9E0A8829ED6C2B00BBE7D3 /* GratitudeJournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E0A8729ED6C2B00BBE7D3 /* GratitudeJournalApp.swift */; };
+		3D9E0A8A29ED6C2B00BBE7D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E0A8929ED6C2B00BBE7D3 /* ContentView.swift */; };
+		3D9E0A8C29ED6C2B00BBE7D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D9E0A8B29ED6C2B00BBE7D3 /* Assets.xcassets */; };
+		3D9E0A8F29ED6C2B00BBE7D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D9E0A8E29ED6C2B00BBE7D3 /* Preview Assets.xcassets */; };
+		3D9E0A9129ED6C2B00BBE7D3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E0A9029ED6C2B00BBE7D3 /* Persistence.swift */; };
+		3D9E0A9429ED6C2B00BBE7D3 /* GratitudeJournal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E0A9229ED6C2B00BBE7D3 /* GratitudeJournal.xcdatamodeld */; };
+		3D9E0A9E29ED6C2C00BBE7D3 /* GratitudeJournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E0A9D29ED6C2C00BBE7D3 /* GratitudeJournalTests.swift */; };
+		3D9E0AA829ED6C2C00BBE7D3 /* GratitudeJournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E0AA729ED6C2C00BBE7D3 /* GratitudeJournalUITests.swift */; };
+		3D9E0AAA29ED6C2C00BBE7D3 /* GratitudeJournalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E0AA929ED6C2C00BBE7D3 /* GratitudeJournalUITestsLaunchTests.swift */; };
+		3D9E0AB729ED6E6700BBE7D3 /* GratitudeEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E0AB629ED6E6700BBE7D3 /* GratitudeEntryView.swift */; };
+		3D9E0AB929ED6E8A00BBE7D3 /* GratitudeEntryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E0AB829ED6E8A00BBE7D3 /* GratitudeEntryRow.swift */; };
+		3D9F031E29EEF2CC009B8480 /* ExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F031D29EEF2CC009B8480 /* ExportView.swift */; };
+		3DD1062529EDE03B006E0864 /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD1062429EDE03B006E0864 /* Mood.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D9E0A9A29ED6C2C00BBE7D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D9E0A7C29ED6C2A00BBE7D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D9E0A8329ED6C2B00BBE7D3;
+			remoteInfo = GratitudeJournal;
+		};
+		3D9E0AA429ED6C2C00BBE7D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D9E0A7C29ED6C2A00BBE7D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D9E0A8329ED6C2B00BBE7D3;
+			remoteInfo = GratitudeJournal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D9E0A8429ED6C2B00BBE7D3 /* GratitudeJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GratitudeJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9E0A8729ED6C2B00BBE7D3 /* GratitudeJournalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeJournalApp.swift; sourceTree = "<group>"; };
+		3D9E0A8929ED6C2B00BBE7D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3D9E0A8B29ED6C2B00BBE7D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D9E0A8E29ED6C2B00BBE7D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D9E0A9029ED6C2B00BBE7D3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		3D9E0A9329ED6C2B00BBE7D3 /* GratitudeJournal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GratitudeJournal.xcdatamodel; sourceTree = "<group>"; };
+		3D9E0A9929ED6C2C00BBE7D3 /* GratitudeJournalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GratitudeJournalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9E0A9D29ED6C2C00BBE7D3 /* GratitudeJournalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeJournalTests.swift; sourceTree = "<group>"; };
+		3D9E0AA329ED6C2C00BBE7D3 /* GratitudeJournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GratitudeJournalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9E0AA729ED6C2C00BBE7D3 /* GratitudeJournalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeJournalUITests.swift; sourceTree = "<group>"; };
+		3D9E0AA929ED6C2C00BBE7D3 /* GratitudeJournalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeJournalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3D9E0AB629ED6E6700BBE7D3 /* GratitudeEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeEntryView.swift; sourceTree = "<group>"; };
+		3D9E0AB829ED6E8A00BBE7D3 /* GratitudeEntryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeEntryRow.swift; sourceTree = "<group>"; };
+		3D9F031D29EEF2CC009B8480 /* ExportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportView.swift; sourceTree = "<group>"; };
+		3DD1062429EDE03B006E0864 /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D9E0A8129ED6C2B00BBE7D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D9E0A9629ED6C2C00BBE7D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D9E0AA029ED6C2C00BBE7D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D9E0A7B29ED6C2A00BBE7D3 = {
+			isa = PBXGroup;
+			children = (
+				3DD1062329EDE02A006E0864 /* enum */,
+				3D9E0A8629ED6C2B00BBE7D3 /* GratitudeJournal */,
+				3D9E0A9C29ED6C2C00BBE7D3 /* GratitudeJournalTests */,
+				3D9E0AA629ED6C2C00BBE7D3 /* GratitudeJournalUITests */,
+				3D9E0A8529ED6C2B00BBE7D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D9E0A8529ED6C2B00BBE7D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D9E0A8429ED6C2B00BBE7D3 /* GratitudeJournal.app */,
+				3D9E0A9929ED6C2C00BBE7D3 /* GratitudeJournalTests.xctest */,
+				3D9E0AA329ED6C2C00BBE7D3 /* GratitudeJournalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D9E0A8629ED6C2B00BBE7D3 /* GratitudeJournal */ = {
+			isa = PBXGroup;
+			children = (
+				3D9E0A8729ED6C2B00BBE7D3 /* GratitudeJournalApp.swift */,
+				3D9E0A8929ED6C2B00BBE7D3 /* ContentView.swift */,
+				3D9E0A8B29ED6C2B00BBE7D3 /* Assets.xcassets */,
+				3D9E0A9029ED6C2B00BBE7D3 /* Persistence.swift */,
+				3D9E0A9229ED6C2B00BBE7D3 /* GratitudeJournal.xcdatamodeld */,
+				3D9E0AB629ED6E6700BBE7D3 /* GratitudeEntryView.swift */,
+				3D9E0AB829ED6E8A00BBE7D3 /* GratitudeEntryRow.swift */,
+				3D9E0A8D29ED6C2B00BBE7D3 /* Preview Content */,
+				3D9F031D29EEF2CC009B8480 /* ExportView.swift */,
+			);
+			path = GratitudeJournal;
+			sourceTree = "<group>";
+		};
+		3D9E0A8D29ED6C2B00BBE7D3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3D9E0A8E29ED6C2B00BBE7D3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3D9E0A9C29ED6C2C00BBE7D3 /* GratitudeJournalTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D9E0A9D29ED6C2C00BBE7D3 /* GratitudeJournalTests.swift */,
+			);
+			path = GratitudeJournalTests;
+			sourceTree = "<group>";
+		};
+		3D9E0AA629ED6C2C00BBE7D3 /* GratitudeJournalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D9E0AA729ED6C2C00BBE7D3 /* GratitudeJournalUITests.swift */,
+				3D9E0AA929ED6C2C00BBE7D3 /* GratitudeJournalUITestsLaunchTests.swift */,
+			);
+			path = GratitudeJournalUITests;
+			sourceTree = "<group>";
+		};
+		3DD1062329EDE02A006E0864 /* enum */ = {
+			isa = PBXGroup;
+			children = (
+				3DD1062429EDE03B006E0864 /* Mood.swift */,
+			);
+			path = enum;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D9E0A8329ED6C2B00BBE7D3 /* GratitudeJournal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D9E0AAD29ED6C2C00BBE7D3 /* Build configuration list for PBXNativeTarget "GratitudeJournal" */;
+			buildPhases = (
+				3D9E0A8029ED6C2B00BBE7D3 /* Sources */,
+				3D9E0A8129ED6C2B00BBE7D3 /* Frameworks */,
+				3D9E0A8229ED6C2B00BBE7D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GratitudeJournal;
+			productName = GratitudeJournal;
+			productReference = 3D9E0A8429ED6C2B00BBE7D3 /* GratitudeJournal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D9E0A9829ED6C2C00BBE7D3 /* GratitudeJournalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D9E0AB029ED6C2C00BBE7D3 /* Build configuration list for PBXNativeTarget "GratitudeJournalTests" */;
+			buildPhases = (
+				3D9E0A9529ED6C2C00BBE7D3 /* Sources */,
+				3D9E0A9629ED6C2C00BBE7D3 /* Frameworks */,
+				3D9E0A9729ED6C2C00BBE7D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D9E0A9B29ED6C2C00BBE7D3 /* PBXTargetDependency */,
+			);
+			name = GratitudeJournalTests;
+			productName = GratitudeJournalTests;
+			productReference = 3D9E0A9929ED6C2C00BBE7D3 /* GratitudeJournalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D9E0AA229ED6C2C00BBE7D3 /* GratitudeJournalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D9E0AB329ED6C2C00BBE7D3 /* Build configuration list for PBXNativeTarget "GratitudeJournalUITests" */;
+			buildPhases = (
+				3D9E0A9F29ED6C2C00BBE7D3 /* Sources */,
+				3D9E0AA029ED6C2C00BBE7D3 /* Frameworks */,
+				3D9E0AA129ED6C2C00BBE7D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D9E0AA529ED6C2C00BBE7D3 /* PBXTargetDependency */,
+			);
+			name = GratitudeJournalUITests;
+			productName = GratitudeJournalUITests;
+			productReference = 3D9E0AA329ED6C2C00BBE7D3 /* GratitudeJournalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D9E0A7C29ED6C2A00BBE7D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3D9E0A8329ED6C2B00BBE7D3 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					3D9E0A9829ED6C2C00BBE7D3 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3D9E0A8329ED6C2B00BBE7D3;
+					};
+					3D9E0AA229ED6C2C00BBE7D3 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3D9E0A8329ED6C2B00BBE7D3;
+					};
+				};
+			};
+			buildConfigurationList = 3D9E0A7F29ED6C2A00BBE7D3 /* Build configuration list for PBXProject "GratitudeJournal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D9E0A7B29ED6C2A00BBE7D3;
+			productRefGroup = 3D9E0A8529ED6C2B00BBE7D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D9E0A8329ED6C2B00BBE7D3 /* GratitudeJournal */,
+				3D9E0A9829ED6C2C00BBE7D3 /* GratitudeJournalTests */,
+				3D9E0AA229ED6C2C00BBE7D3 /* GratitudeJournalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D9E0A8229ED6C2B00BBE7D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D9E0A8F29ED6C2B00BBE7D3 /* Preview Assets.xcassets in Resources */,
+				3D9E0A8C29ED6C2B00BBE7D3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D9E0A9729ED6C2C00BBE7D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D9E0AA129ED6C2C00BBE7D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D9E0A8029ED6C2B00BBE7D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D9E0A9129ED6C2B00BBE7D3 /* Persistence.swift in Sources */,
+				3D9E0A9429ED6C2B00BBE7D3 /* GratitudeJournal.xcdatamodeld in Sources */,
+				3D9E0AB729ED6E6700BBE7D3 /* GratitudeEntryView.swift in Sources */,
+				3DD1062529EDE03B006E0864 /* Mood.swift in Sources */,
+				3D9F031E29EEF2CC009B8480 /* ExportView.swift in Sources */,
+				3D9E0A8A29ED6C2B00BBE7D3 /* ContentView.swift in Sources */,
+				3D9E0A8829ED6C2B00BBE7D3 /* GratitudeJournalApp.swift in Sources */,
+				3D9E0AB929ED6E8A00BBE7D3 /* GratitudeEntryRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D9E0A9529ED6C2C00BBE7D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D9E0A9E29ED6C2C00BBE7D3 /* GratitudeJournalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D9E0A9F29ED6C2C00BBE7D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D9E0AAA29ED6C2C00BBE7D3 /* GratitudeJournalUITestsLaunchTests.swift in Sources */,
+				3D9E0AA829ED6C2C00BBE7D3 /* GratitudeJournalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D9E0A9B29ED6C2C00BBE7D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D9E0A8329ED6C2B00BBE7D3 /* GratitudeJournal */;
+			targetProxy = 3D9E0A9A29ED6C2C00BBE7D3 /* PBXContainerItemProxy */;
+		};
+		3D9E0AA529ED6C2C00BBE7D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D9E0A8329ED6C2B00BBE7D3 /* GratitudeJournal */;
+			targetProxy = 3D9E0AA429ED6C2C00BBE7D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D9E0AAB29ED6C2C00BBE7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D9E0AAC29ED6C2C00BBE7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D9E0AAE29ED6C2C00BBE7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GratitudeJournal/Preview Content\"";
+				DEVELOPMENT_TEAM = UK892RM8F5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobvoss.GratitudeJournal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D9E0AAF29ED6C2C00BBE7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GratitudeJournal/Preview Content\"";
+				DEVELOPMENT_TEAM = UK892RM8F5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobvoss.GratitudeJournal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D9E0AB129ED6C2C00BBE7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobvoss.GratitudeJournalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GratitudeJournal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GratitudeJournal";
+			};
+			name = Debug;
+		};
+		3D9E0AB229ED6C2C00BBE7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobvoss.GratitudeJournalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GratitudeJournal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GratitudeJournal";
+			};
+			name = Release;
+		};
+		3D9E0AB429ED6C2C00BBE7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobvoss.GratitudeJournalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GratitudeJournal;
+			};
+			name = Debug;
+		};
+		3D9E0AB529ED6C2C00BBE7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacobvoss.GratitudeJournalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GratitudeJournal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D9E0A7F29ED6C2A00BBE7D3 /* Build configuration list for PBXProject "GratitudeJournal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D9E0AAB29ED6C2C00BBE7D3 /* Debug */,
+				3D9E0AAC29ED6C2C00BBE7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D9E0AAD29ED6C2C00BBE7D3 /* Build configuration list for PBXNativeTarget "GratitudeJournal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D9E0AAE29ED6C2C00BBE7D3 /* Debug */,
+				3D9E0AAF29ED6C2C00BBE7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D9E0AB029ED6C2C00BBE7D3 /* Build configuration list for PBXNativeTarget "GratitudeJournalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D9E0AB129ED6C2C00BBE7D3 /* Debug */,
+				3D9E0AB229ED6C2C00BBE7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D9E0AB329ED6C2C00BBE7D3 /* Build configuration list for PBXNativeTarget "GratitudeJournalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D9E0AB429ED6C2C00BBE7D3 /* Debug */,
+				3D9E0AB529ED6C2C00BBE7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3D9E0A9229ED6C2B00BBE7D3 /* GratitudeJournal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3D9E0A9329ED6C2B00BBE7D3 /* GratitudeJournal.xcdatamodel */,
+			);
+			currentVersion = 3D9E0A9329ED6C2B00BBE7D3 /* GratitudeJournal.xcdatamodel */;
+			path = GratitudeJournal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3D9E0A7C29ED6C2A00BBE7D3 /* Project object */;
+}
